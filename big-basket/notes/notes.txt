@@ -1,0 +1,134 @@
+BigBasket Application (MERN Stack - Full Stack)
+-----------------------------------------------
+
+Server Setup (Express JS REST API)
+-----------------------------------
+install the packages
+--------------------
+express 
+mongoose 
+cors 
+dotenv 
+
+@types/node
+@types/express 
+@types/mongoose 
+@types/cors 
+@types/dotenv 
+
+install the packages -> npm install -g ts-node nodemon
+package.json -> npm init --yes
+tsconfig.json -> tsc --init 
+npm install express mongoose cors dotenv @types/express @types/node @types/mongoose @types/cors @types/dotenv 
+
+
+1. @usage : GET All Products
+   @url : http://127.0.0.1:5000/api/products
+   @method : GET 
+   @fields : no-fields 
+   @access : PUBLIC
+   
+2. @usage : GET single Product 
+   @url : http://127.0.0.1:5000/api/products/:productId
+   @method : GET 
+   @fields : no-fields 
+   @access : PUBLIC   
+  
+3. @usage : CREATE a Product 
+   @url : http://127.0.0.1:5000/api/products/
+   @method : POST 
+   @fields : name , image , price , qty , info 
+   @access : PUBLIC   
+   
+4. @usage : UPDATE a Product 
+   @url : http://127.0.0.1:5000/api/products/:productId
+   @method : PUT 
+   @fields : name , image , price , qty , info 
+   @access : PUBLIC   
+  
+5. @usage : DELETE a Product 
+   @url : http://127.0.0.1:5000/api/products/:productId
+   @method : DELETE 
+   @fields : no-fields 
+   @access : PUBLIC   
+   
+Mongo DB (Database Configuration)
+---------------------------------
+URL : mongodb://127.0.0.1:27017/big-basket-app
+Database : big-basket-app
+Table : Products 
+Fields : _id, name , image , price , qty , info , createdAt , updatedAt
+
+ Client Setup
+ -------------
+ Create React App with the name "client" -> npx create-react-app client --template typescript
+ 
+ Add Bootstrap Configuration 
+ 
+ Bootstrap : 5
+-------------
+npm install bootstrap@next
+
+MdBootstrap
+-----------
+npm install mdbootstrap
+
+Font Awesome Icons
+------------------
+npm i @fortawesome/fontawesome-free
+
+Configure the CSS Files with index.tsx file
+-------------------------------------------
+// Bootstrap + MDBootstrap + Font Awesome css files
+import '@fortawesome/fontawesome-free/css/all.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import 'mdbootstrap/css/mdb.css';
+
+Configure the Online CSS Files with index.html file
+----------------------------------------------------
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+Add Ubuntu Font for the app 
+
+
+install few other packages
+-----------------------------
+axios
+react-router-dom
+@types/axios 
+@types/react-router-dom 
+
+install redux packages 
+-----------------------
+redux 
+react-redux 
+redux-devtools-extension
+redux-logger
+redux-thunk
+
+@types/redux 
+@types/react-redux 
+@types/redux-devtools-extension
+@types/redux-logger
+@types/redux-thunk
+
+npm install bootstrap@next mdbootstrap @fortawesome/fontawesome-free axios react-router-dom @types/axios @types/react-router-dom redux react-redux redux-devtools-extension redux-logger redux-thunk @types/redux @types/react-redux @types/redux-devtools-extension @types/redux-logger @types/redux-thunk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
